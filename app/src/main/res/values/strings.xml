@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">TravelFinder</string>
-    <string name="text_label_1">Tab1</string>
-    <string name="text_label_2">Tab2</string>
-    <string name="text_label_3">Tab3</string>
-    <string name="text_label_4">Tab4</string>
-    <string name="text_label_5">Tab5</string>
+    <string name="text_label_1">Europe</string>
+    <string name="text_label_2">Asie</string>
+    <string name="text_label_3">Amérique</string>
+    <string name="text_label_4">Afrique</string>
+    <string name="text_label_5">Océanie</string>
+    <string name="action">En savoir plus</string>
+
 </resources>

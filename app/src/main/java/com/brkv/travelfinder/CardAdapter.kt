@@ -5,7 +5,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.card.view.*
+import org.jetbrains.anko.image
 
 class CardAdapter(val items : Array<Article>) : RecyclerView.Adapter<CardAdapter.ViewHolder>() {
 
@@ -25,6 +27,7 @@ class CardAdapter(val items : Array<Article>) : RecyclerView.Adapter<CardAdapter
     class ViewHolder(val itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bindCard(article: Article) {
             with(article) {
+                Picasso.get().load(src_img).into(itemView.imageCard);
                 itemView.title.text = nom
                 itemView.subTxt.text = desc
 

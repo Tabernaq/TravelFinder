@@ -7,7 +7,7 @@ import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.card.view.*
-import org.jetbrains.anko.image
+
 
 class CardAdapter(val items : Array<Article>) : RecyclerView.Adapter<CardAdapter.ViewHolder>() {
 

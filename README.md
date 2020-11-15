@@ -1,7 +1,7 @@
 # TravelFinder
 ## Présentation :
 
-TravelFinder est une application Android développée à l'aide du langage Kotlin. 
+TravelFinder est une application Android développée à l'aide du langage Kotlin. Elle à été développé par Julien MERCADAL et Alexandre GRAILLE 
 Elle permet de suggérer des destinations de voyage à l'utilisateur, le tout trié par continent.
 
 ![Capture1](https://raw.githubusercontent.com/Tabernaq/TravelFinder/master/img/capture1.png)

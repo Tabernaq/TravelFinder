@@ -1,7 +1,8 @@
 # TravelFinder
 ## Présentation :
 
-TravelFinder est une application Android développée à l'aide du langage Kotlin. Elle à été développé par Julien MERCADAL et Alexandre GRAILLE 
+TravelFinder est une application Android développée à l'aide du langage Kotlin. 
+Elle à été développée par Julien MERCADAL et Alexandre GRAILLE.
 Elle permet de suggérer des destinations de voyage à l'utilisateur, le tout trié par continent.
 
 ![Capture1](https://raw.githubusercontent.com/Tabernaq/TravelFinder/master/img/capture1.png)
@@ -14,7 +15,7 @@ Afin de pouvoir parcourir les diverses destinations proposées par TravelFinder,
 ![Capture2](https://raw.githubusercontent.com/Tabernaq/TravelFinder/master/img/capture2.png)
 
 ### - Système de cartes :
-Chaque destination est affiché dans une carte :
+Chaque destination est affichée dans une carte :
 
 ![Capture3](https://raw.githubusercontent.com/Tabernaq/TravelFinder/master/img/capture3.png)
 
@@ -24,7 +25,7 @@ Chaque carte est divisé en trois parties :
 - Une bref description de la destination
 
 
-Chacune de ces cartes sont stockés dans un RecyclerView, ce qui permet d'afficher toutes les cartes dans une liste
+Chacune de ces cartes sont stockées dans un RecyclerView, ce qui permet d'afficher toutes les cartes dans une liste
 
 ## Architecture :
 
@@ -41,7 +42,7 @@ Le tout imbriqué dans un ConstraintLayout
 
 ### - Base de données : 
 
-Afin de pouvoir afficher les données de chaque destination, toutes les informations sont stockées dans une base de données. La base de données est composés d'une seule table contenant les attributs suivants : 
+Afin de pouvoir afficher les données de chaque destination, toutes les informations sont stockées dans une base de données. La base de données est composée d'une seule table contenant les attributs suivants : 
 - id qui est la clé primaire
 - nom qui correspond au nom de la destination
 - desc qui correspond à la description de la destination
